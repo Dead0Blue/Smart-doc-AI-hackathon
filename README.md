@@ -64,7 +64,7 @@ Pour toute question ou clarification, n'hésitez pas à ouvrir une issue dans ce
 
 This repo includes a production-ready RAG application for SFCR report analysis: upload PDFs, ask questions, get AI answers with citations, and view results as tables.
 
-**Live demo:** [https://smart-doc-ai-hackathon-98rp-6418iun10-adams-projects-daade997.vercel.app/](https://smart-doc-ai-hackathon-98rp-6418iun10-adams-projects-daade997.vercel.app/)
+**Live demo:** https://smart-doc-ai-hackathon-98rp.vercel.app/
 
 ---
 
