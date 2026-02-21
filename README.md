@@ -60,4 +60,32 @@ Pour toute question ou clarification, n'hésitez pas à ouvrir une issue dans ce
 
 ---
 
+## SmartDoc AI – Full-Stack RAG App 🚀
+
+This repo includes a production-ready RAG application for SFCR report analysis.
+
+### Local development
+
+**Backend:**
+```bash
+cd backend
+pip install -r requirements.txt
+# Add OPENAI_API_KEY to backend/.env
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+
+**Frontend:**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Deployment
+
+- **Frontend (Vercel):** Import this repo, set Root Directory to `frontend`, add env var `VITE_API_BASE` = your backend URL.
+- **Backend (Render):** New Web Service → connect this repo → Root Directory `backend` → Build: `pip install -r requirements.txt` → Start: `uvicorn main:app --host 0.0.0.0 --port $PORT` → Add `OPENAI_API_KEY` in Environment.
+
+---
+
 Organisé avec ❤️ par ECC Alumni
